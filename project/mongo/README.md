@@ -24,7 +24,7 @@ The docker image can be configured at runtime via environment variables. This is
 Standard run
 
 ```sh
-docker run -d --name myMongoDB mongodb
+docker run -d -p 27017:27017 --name myMongoDB mongodb
 ```
 
 ### Testing the DB
